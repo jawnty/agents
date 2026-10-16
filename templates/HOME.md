@@ -10,6 +10,16 @@ A private, editable home for context worth carrying forward. Keep this index sho
 
 Replace local template links with working Drive links after setup. Verify each destination; don't invent file URLs.
 
+## Storage and provenance
+
+- Backend: Google Drive; other backends require a separate implementation
+- Role: [Canonical folder / dated shared snapshot]
+- Source/version: [Verified provenance appropriate for this audience; omit private links they must not receive]
+- Copied or last synchronized: [Verified timestamp and time zone / not applicable]
+- Snapshot coverage: [Included topics and omissions, if applicable]
+- Agent access: [Authorized agents and read/write scope; verify separately for each]
+- Synchronization: None assumed; a snapshot or read access does not authorize editing the canonical folder
+
 ## Scope
 
 - Included sources: [Sources the owner selected and access actually verified]
@@ -20,7 +30,7 @@ Replace local template links with working Drive links after setup. Verify each d
 ## Catch-up
 
 - Time zone: [Confirmed IANA time zone]
-- Requested cadence: Daily at 9:00 a.m. local time; hourly only if chosen
+- Requested cadence: [Owner's chosen daily or hourly cadence, with confirmed timing]
 - Actual status: Not configured
 - Verified schedule reference: [Fill only after setup succeeds]
 - Notification preference: Actionable blockers or meaningful findings; no routine no-change messages
