@@ -2,6 +2,12 @@
 
 These are the owner's instructions for this private folder. They do not grant access to other systems or override required approvals.
 
+## Storage, agents, and shared copies
+
+This protocol applies to any authorized AI assistant or agent. The implementation assumes Google Drive read/write tools and access to the agreed sources; verify each agent's access independently. Other storage backends require their own implementation.
+
+HOME.md identifies the canonical folder or a dated shared snapshot. The canonical folder is the authoritative source. Share only selected material with explicitly authorized recipients or agents. A copy is not automatically synchronized and may be stale: record its provenance, copy/last-sync timestamp, and coverage without disclosing unauthorized private details. Read access and snapshot access do not authorize editing the canonical folder. Reconcile changes back only with the owner's authorization. Every authorized writer follows the fresh-read, version/conflict, and read-back steps below; avoid simultaneous writes if adequate safeguards are unavailable.
+
 ## What belongs here
 
 Keep concise, durable meaning: decisions and reasons, established preferences, relevant project context, and open commitments or questions. Record what makes a fact useful, not every event that produced it. Use a few topic files and link them from HOME.md. Avoid transcripts, redundant summaries, and empty topic files.
@@ -40,7 +46,7 @@ Keep only the latest 20 run entries. Preserve durable findings in topic files be
 
 ## Schedule and access
 
-Default proposal: daily at 9:00 a.m. in the owner's confirmed time zone. Hourly is optional, never assumed. Verify that the scheduler supports the requested cadence, time zone, source access, and private-folder updates. Reuse an existing matching routine; don't create duplicates. Record the real configuration in HOME.md only after verifying it is enabled.
+Ask the owner to choose daily or hourly catch-up, with confirmed timing and time zone. Preserve an existing schedule unless a change is authorized. Verify that the scheduler supports the requested cadence, time zone, source access, and private-folder updates. Reuse an existing matching routine; don't create duplicates. Record the real configuration in HOME.md only after verifying it is enabled.
 
 If scheduling is unavailable, say so and use manual catch-up. If a source becomes inaccessible, report the gap, continue independent authorized work, and retain enough check history to recover missed coverage later. Do not claim access to all conversations or automatic recall across every future chat.
 
