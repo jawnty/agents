@@ -2,6 +2,15 @@
 
 [One sentence explaining what this note helps with. Create a real topic file only when there is useful content.]
 
+## Provenance when sharing a copy
+
+- Role: [Canonical note / dated shared snapshot]
+- Source/version: [Verified provenance safe for the intended audience]
+- Copied or last synchronized: [Verified timestamp and time zone / not applicable]
+- Coverage or omissions: [If applicable]
+
+A shared copy is not automatically synchronized and does not authorize an agent to edit the canonical note. Include only approved content and source references.
+
 ## Useful context
 
 - [Concise fact or preference, relevant circumstances, and why it matters]
