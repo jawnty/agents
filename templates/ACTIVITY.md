@@ -7,6 +7,9 @@ A small status ledger, not a conversation archive. Keep only the latest 20 run e
 - Last attempted check: Not yet run
 - Last successful check: Not yet run
 - Last verified substantive content change: None yet
+- Agent or process: [Identity of the authorized writer; no credentials]
+- Folder role: [Canonical / snapshot; match HOME.md]
+- Last verified snapshot synchronization: [Timestamp and provenance / not applicable; never infer this from a catch-up check]
 - Configured source scope: [Match HOME.md; list access limits separately]
 - Outstanding coverage gaps: None assessed yet
 
